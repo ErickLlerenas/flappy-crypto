@@ -1,0 +1,19 @@
+.home-container {
+	width: 90vw;
+	height: 100vh;
+	margin: 0 auto;
+	font-family: "Roboto", sans-serif;
+
+	.home-menu {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		.home-menu-item {
+			.row {
+				display: flex;
+				flex-direction: row;
+			}
+		}
+	}
+}
